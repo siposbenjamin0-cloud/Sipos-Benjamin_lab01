@@ -12,7 +12,6 @@ for i in range(n):
 
 print("\nSirul introdus este:", sir)
 
-
 # Citirea unei matrice
 linii = int(input("\nNumarul de linii: "))
 coloane = int(input("Numarul de coloane: "))
@@ -32,4 +31,5 @@ print("\nMatricea introdusa este:")
 
 for rand in matrice:
     print(*rand)
+print('asta e un test')    
 
