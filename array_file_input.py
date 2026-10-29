@@ -1,7 +1,7 @@
 
 # Cerinta 2 - Citirea unui sir din fisier
 
-nume_fisier = input("Introdu numele fisierului: ")
+nume_fisier = int(input("Introdu numele fisierului: "))
 
 try:
     with open(nume_fisier, "r", encoding="utf-8") as fisier:
